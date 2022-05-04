@@ -197,13 +197,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.load-animation svg {
   width: 100px;
   margin: 0 auto;
   animation: loadAnimation infinite .4s alternate-reverse;
 }
+
+/* .load-animation svg {
+  width: 100px;
+  margin: 0 auto;
+  animation: loadAnimation infinite .4s alternate-reverse;
+} */
 
 @keyframes loadAnimation {
   0% {
