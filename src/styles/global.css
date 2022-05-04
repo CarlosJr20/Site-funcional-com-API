@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root {
+  --red: #DE1337;
+  --black: #343434;
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255,206,183);
+  background: linear-gradient(360deg, rgba(255,206,183,1) 0%, rgba(255,132,63,1) 64%, rgba(255,95,0,1) 100%);
+  
+  font-family: 'Ubuntu', sans-serif;
+}
